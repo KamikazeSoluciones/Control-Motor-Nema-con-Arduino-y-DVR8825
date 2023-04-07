@@ -1,0 +1,29 @@
+Introducción: Este proyecto tiene como objetivo controlar el movimiento del motor Nema 17 en el eje Z de una CNC que dispensa reactivos con 2 jeringas. 
+Se utilizaron componentes como el driver DVR8825 y el microcontrolador Arduino Nano para programar y controlar el motor. En este README se describirá el proceso de 
+creación del proyecto, desde la idea hasta la implementación y los resultados obtenidos.
+
+Problema por solucionar: El objetivo principal del proyecto era controlar el movimiento del motor Nema 17 en el eje Z de una CNC para dispensar los reactivos de forma 
+precisa. La idea era asegurar que los reactivos se dispensaran exactamente en las cantidades necesarias para lograr un proceso de laboratorio preciso y consistente.
+
+Mi estrategia: La estrategia principal fue utilizar un motor Nema 17 con un driver DVR8825 y un microcontrolador Arduino Nano para programar y controlar el movimiento 
+del motor en el eje Z. Se implementó un código que permitió la comunicación entre el microcontrolador y el driver para controlar el movimiento del motor.
+
+¿Cómo llegue al diseño? El diseño se creó mediante una serie de pruebas y prototipos. Se diseñó una PCB para facilitar las conexiones necesarias entre los diferentes 
+componentes y se hizo uso de una protoboard para las pruebas iniciales. Se utilizó un diseño en 3D para asegurarse de que los componentes estuvieran correctamente 
+posicionados y se probaron diferentes configuraciones hasta que se encontró una que funcionara correctamente.
+
+Diferentes prototipos que probe: Se probaron varios prototipos para el proyecto, incluyendo diferentes configuraciones de componentes y diseños de PCB. También se 
+experimentó con diferentes códigos para el microcontrolador para asegurarse de que el motor se moviera de la manera deseada.
+
+Prototipo al final elegido: Se eligió un prototipo que funcionaba correctamente y era lo suficientemente simple para ser replicado. Se aseguró de que el diseño de la PCB
+y la configuración del código fueran fáciles de entender y replicar para cualquier persona interesada en el proyecto.
+
+¿Cómo lo implemente? Una vez que se eligió el diseño final, se implementó el proyecto mediante la creación de una PCB que incluía los componentes necesarios y un código
+para el microcontrolador. Se realizaron pruebas adicionales para asegurarse de que todo funcionara correctamente.
+
+¿Qué resultados obtuve? Los resultados del proyecto fueron muy satisfactorios. El motor se movió de manera consistente y precisa, permitiendo la dispensación de reactivos
+en las cantidades necesarias para lograr un proceso de laboratorio preciso. Además, el diseño de la PCB y el código fueron lo suficientemente simples como para que
+cualquier persona interesada en el proyecto pudiera replicarlo fácilmente.
+
+¿Cuáles son las oportunidades de mejora? Si bien el proyecto fue exitoso, hay algunas oportunidades de mejora que se pueden considerar en el futuro. Por ejemplo, se 
+podría explorar la posibilidad de utilizar enconder para lograr aún más precisión.
